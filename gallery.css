@@ -661,9 +661,6 @@ footer{
     gap: 5.4rem;
     margin-top: 3rem;
 }
-footer .col1{
-    /* padding-right: 10rem; */
-}
 footer .col1 .footer-title,footer .col2 .footer-title,footer .col3 .footer-title,footer .col4 .footer-title{
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
