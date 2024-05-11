@@ -276,37 +276,126 @@ nav{
   /* navbar end------- */
 
 /* container 1 start */
-.GalleryConatiner1{
-    width: 100%;
-    height: 25rem;
-background-image: url('assests/school-is-closed-due-covid19-pandemic\ 1.jpg');
-display: flex;
-justify-content: center;
-align-items: center;
-padding-left: 7rem;
-background-repeat: no-repeat;
-object-fit: cover;
-}
-.GalleryConatiner1 .title .para1{
-    color: rgba(255, 255, 255, 1);
-    font-size: 86px;
-    font-family: 'khand';
-    font-weight: 700;
-    letter-spacing: 4px;
-}
-.GalleryConatiner1 .title .para2{
-    color: rgba(225, 225, 225, 1);
-    font-size: 18px;
-    margin-left: -28rem;
-}
-.GalleryConatiner1 .para2 a{
-    color: rgba(187, 187, 187);
-    text-decoration: none;
-}
-.GalleryConatiner1 .title{
+.Conatiner1{
+    background-image: url('assests/gallery-bg-image.jpg');
     display: flex;
-    flex-direction: column;    
-}
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 100%;
+    padding: 10rem 0 10rem 6.8rem;
+    
+    }
+    .Conatiner1 .title .para1{
+        color: rgba(255, 255, 255, 1);
+        font-size: 86px;
+        font-family: 'khand';
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    .Conatiner1 .title .para2{
+        color: rgba(225, 225, 225, 1);
+        font-size: 18px;
+        margin-left: -24rem;
+    }
+    .Conatiner1 .para2 a{
+        color: rgba(187, 187, 187);
+        text-decoration: none;
+    }
+    .Conatiner1 .title{
+        display: flex;
+        flex-direction: column;    
+    }
+    /* container 1 end */
+    /* responsive */
+    @media screen and (max-width: 1280px) {
+        .Conatiner1 .title .para2 {
+                margin-left: -19rem;
+        } 
+    }
+    
+    @media screen and (max-width: 1130px) {
+        .Conatiner1 .title .para2 {
+            margin-left: -15rem;
+        }
+        .navBar{
+            padding: 36px 3rem 36px 2rem;
+        }
+    }
+    @media screen and (max-width: 1090px) {
+        .Conatiner1 .title .para2 {
+            margin-left: -10rem;
+        }
+    }
+    @media screen and (max-width: 840px) {
+    .Conatiner1 .title .para2 {
+        margin-left: -6rem;
+        font-size: 14px;
+    }
+    .Conatiner1 .para {
+        font-size: 16px;
+    }
+    .Conatiner1 .title .para1 {
+    font-size: 70px;
+    }
+    }
+    
+    @media screen and (max-width: 750px) {
+        :root{
+            --title-size: 36px;
+        }
+    }
+    @media screen and (max-width: 750px) {
+            .Conatiner1 .title .para1 {
+                font-size: 60px;
+            }
+            .Conatiner1{
+                height: 25rem;
+            }
+    }
+    @media screen and (max-width: 695px) {
+        .Conatiner1 .title .para2 {
+            margin-left: -4rem;
+        }
+    }
+    @media screen and (max-width: 525px) {
+        :root {
+            --title-size: 33px;
+        }
+        .Conatiner1 p {
+            margin-top: 12px;
+        }
+            .Conatiner1 .title .para1 {
+                font-size: 46px;
+                letter-spacing: 1px;
+            }
+            .Conatiner1{
+                padding: 12rem 0;
+            }
+            .Conatiner1 .title .para2 {
+                margin-left: 0;
+                font-size: 12px;
+            }
+    }
+    @media screen and (max-width: 465px) {
+    :root {
+        --title-size: 28px;
+    }
+    }
+    @media screen and (max-width: 410px) {
+        .Conatiner1 {
+            height: 26rem;
+            }
+        .Conatiner1 .title .para2 {
+            font-size: 10px;
+            margin-bottom: 2rem;
+        }
+        :root {
+            --title-size: 24px;
+        }
+    }
 /* container 1 end */
 
 /* container 2 */
@@ -403,6 +492,7 @@ color: var(--red-color);
     font-weight: 500;
     color: var(--black-color);
     text-align: center;
+    margin-top: 1rem;
 }
 .GalleryConatiner2 p span{
     color: var(--red-color);
@@ -433,9 +523,6 @@ color: var(--red-color);
     .GalleryConatiner3 {
         padding: 2rem 4rem;
     }
-    .GalleryConatiner1 .title .para2 {
-        margin-left: -24rem;
-    }
 }
 @media screen and (max-width: 1090px) {
     .gallery2-para3 {
@@ -451,9 +538,6 @@ color: var(--red-color);
     }
     .GalleryConatiner3 {
         padding: 2rem 3rem;
-    }
-    .GalleryConatiner1 .title .para2 {
-        margin-left: -20rem;
     }
     .GalleryConatiner4 button{
         padding: 14px 70px;
@@ -486,17 +570,11 @@ color: var(--red-color);
         font-size: 22px;
         width: 94%;
     }
-    .GalleryConatiner1 {
-        padding-left: 4rem;
-}
 .title .para2 {
     font-size: 16px;
 }
 title .para1 {
     font-size: 46px;
-}
-.GalleryConatiner1 .title .para1 {
-    font-size: 70px;
 }
 .pagination div {
     margin: 0px 8px;
@@ -559,17 +637,8 @@ title .para1 {
         .title .para2 {
             font-size: 15px;
         }
-        .GalleryConatiner1 .title .para1 {
-            font-size: 60px;
-        }
-        .GalleryConatiner1{
-            height: 22rem;
-        }
 }
 @media screen and (max-width: 695px) {
-    .GalleryConatiner1 .title .para2 {
-        margin-left: -11rem;
-    }
     .GalleryConatiner4 button {
         padding: 13px 36px;
         font-size: 12px;
@@ -584,16 +653,6 @@ title .para1 {
     }
     .GalleryConatiner3 {
             padding: 1rem 1rem;
-        }
-        .GalleryConatiner1 .title .para1 {
-            font-size: 50px;
-        }
-        .GalleryConatiner1 .title .para2 {
-            margin-left: -8rem;
-            font-size: 12px;
-        }
-        .GalleryConatiner1{
-            background-size: cover;
         }
         .GalleryConatiner4 button {
             padding: 12px 25px;
@@ -615,19 +674,11 @@ title .para1 {
 }
 
 @media screen and (max-width: 410px) {
-    .GalleryConatiner1 {
-        height: 17rem;
-        align-items: flex-end;
-    }.title .para1 {
+.title .para1 {
         font-size: 40px;
     }
     .title .para2 {
         font-size: 13px;
-    }
-    .GalleryConatiner1 .title .para2 {
-        margin-left: -6rem;
-        font-size: 10px;
-        margin-bottom: 2rem;
     }
     :root {
         --title-size: 24px;
@@ -663,7 +714,6 @@ footer{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5.4rem;
-    margin-top: 3rem;
 }
 footer .col1 .footer-title,footer .col2 .footer-title,footer .col3 .footer-title,footer .col4 .footer-title{
     font-weight: 500;
@@ -749,7 +799,7 @@ footer .col4 .icons i:hover{
         font-size: 12px;
     }
 }
-@media screen and (max-width:710px) {
+@media screen and (max-width:760px) {
     footer {
         grid-template-columns: auto auto;
     }
@@ -757,14 +807,25 @@ footer .col4 .icons i:hover{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media screen and (max-width:440px) {
-    footer .col4 .icons {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width:520px) {
+    footer{
+        grid-template-columns: auto;
+        gap: 15px;
     }
+    footer .col4 .icons {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    footer .col1 .content {
+        margin-top: 10px;
+    }
+    footer .col2 ul, footer .col3 ul {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:440px) {
     footer {
         padding: 2rem 1.2rem 2rem 1.2rem;
         gap: 1.4rem;
     }
 }
-
 /* footer end */

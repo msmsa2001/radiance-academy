@@ -776,10 +776,22 @@ footer .col4 .icons i:hover{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media screen and (max-width:440px) {
-    footer .col4 .icons {
-        grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width:520px) {
+    footer{
+        grid-template-columns: auto;
+        gap: 15px;
     }
+    footer .col4 .icons {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    footer .col1 .content {
+        margin-top: 10px;
+    }
+    footer .col2 ul, footer .col3 ul {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:440px) {
     footer {
         padding: 2rem 1.2rem 2rem 1.2rem;
         gap: 1.4rem;
