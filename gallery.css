@@ -357,7 +357,10 @@ object-fit: cover;
     border: 1.6px solid var(--gray-color);
     color: var(--gray-color);
 }
-
+.page-button:hover{
+border-color: var(--red-color);
+color: var(--red-color);
+}
 .page-button.active {
     border: 2px solid var(--red-color);
     background-color: var(--red-color);
@@ -380,6 +383,7 @@ object-fit: cover;
     opacity: 0.5;
     cursor: not-allowed;
 } 
+
 .gallary1{
     margin-bottom: -1rem;
 }

@@ -325,6 +325,10 @@ text-align: center;
     color: var(--red-color);
     font-weight: 700;
 }
+.container2 .sec-2 img{
+    width: 500px;
+    height: auto;
+}
 /* container2 end */
 
 /* container3 start */
@@ -798,12 +802,19 @@ figure:hover {
  /* container9 end */
 
  /* Resposnive query */
- @media screen and (max-width:1350px) {
+ @media screen and (min-width: 1500px) and (max-width: 1650px) {
     figure {
-        width: 360px;
-        height: 250px;
-    }
- }
+        margin: 0 0 0rem;
+        width: 445px;
+    }}
+    @media screen and (min-width: 1300px) and (max-width: 1400px) {
+        figure {
+            width: 385px;
+        }}
+        @media screen and (min-width: 1400px) and (max-width: 1500px) {
+            figure {
+                width: 410px;
+            }}
  @media screen and (max-width:1250px) {
     figure {
         width: 330px;
@@ -1023,7 +1034,7 @@ figure {
         width: 330px;
     }
     .container3 {
-        margin-top: 10.2rem;
+        margin-top: 9rem;
     }
     .container2 .sec-1 p {
         font-size: 14px;
@@ -1221,7 +1232,7 @@ figure {
     --para-size: 12px;
 }
 .container3 .sec-2 .title1 {
-    line-height: 28px;
+    line-height: 12px;
 }
 .container4 .sec-1 .card1 .card-info .card-title, .container4 .sec-2 .card1 .card-info .card-title {
     font-size: 12px;
