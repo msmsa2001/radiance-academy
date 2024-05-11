@@ -205,7 +205,7 @@ nav{
       display: block;
       color: var(--black-color);
       font-size: 20px;
-      font-weight: 400;
+      font-weight: 499;
       padding-left: 20px;
       cursor: pointer;
       border-radius: 5px;
@@ -482,16 +482,14 @@ font-size: 70px;
 }
 @media screen and (max-width:520px) {
     .container2 .sec2 #image2 {
-        position: relative;
-        margin-top: 1rem;
-        margin-left: 0;
+        margin-left: -26rem;
+        width: 280px;
     }
-    .container2 .sec2 {
-        padding-left: 0rem;
+    .container2 .sec2 #image1 {
+        width: 280px;
     }
-    .container2 .sec2 #image1, .container2 .sec2 #image2 {
-        height: auto;
-        width: 345px;
+    .container2 .sec2{
+        padding-left: 8rem;
     }
 }
 @media screen and (max-width:480px) {
@@ -509,12 +507,25 @@ font-size: 70px;
     .container2 {
         padding: 1rem;
     }
-    .container2 .sec2 #image1,.container2 .sec2 #image2 {
-        height: auto;
-        width: 300px;
+    .container2 .sec2 #image1, .container2 .sec2 #image2 {
+        width: 245px;
+    }
+    .container2 .sec2 #image2{
+        margin-left: -20rem;
     }
 }
-
+@media screen and (max-width:410px) {
+    .container2 .sec2 {
+        padding-left: 5rem;
+    }
+    .container2 .sec2 #image1, .container2 .sec2 #image2 {
+        width: 220px;
+    }
+    .container2 .sec2 #image2 {
+        margin-left: -17rem;
+        margin-top: 13rem;
+    }
+}
 /* container 2 end */
 /* container3 start */
 .container3{
@@ -657,11 +668,6 @@ background-color: transparent;
     .container3 .sec1 .para {
         font-size: 18px;
         line-height: 28px;
-    }
-}
-@media screen and (max-width:520px) {
-    .container3{
-        margin-top: 3rem;
     }
 }
 @media screen and (max-width:450px) {

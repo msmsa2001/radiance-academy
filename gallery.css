@@ -206,7 +206,7 @@ nav{
       display: block;
       color: var(--black-color);
       font-size: 20px;
-      font-weight: 400;
+      font-weight: 499;
       padding-left: 20px;
       cursor: pointer;
       border-radius: 5px;
@@ -513,6 +513,7 @@ color: var(--red-color);
     box-shadow: inset 0 0 0 0 var(--red-color);
     transition: ease-out .3s;
     outline: none;
+    margin-bottom: 2rem;
 }
 .GalleryConatiner4 a button:hover{
     box-shadow: inset 300px 0 0 0 var(--red-color);
