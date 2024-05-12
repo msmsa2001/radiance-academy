@@ -1265,13 +1265,14 @@ figure {
     font-size: 12px;
 }
 .container2 {
-    margin: -4rem 4rem 0;
+    margin: -6rem 3rem 0;
     border-radius: 20px;
     grid-template-columns: auto;
 }
 .container1 .overlay-text {
     text-align: left;
     left: 38%;
+    top: 44%;
     line-height: 40px;
     font-size: 38px;
 }
@@ -1290,9 +1291,10 @@ figure {
 }
 .container2 .sec-2 img {
     width: 290px;
+    border-radius: 0 0 20px 20px;
 }
 .container2 .sec-1 p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     margin-bottom: 10px;
 }
@@ -1319,7 +1321,7 @@ figure {
         height: 32rem;
     }
     .container2 {
-        margin: -4rem 2rem 0;
+        margin: -6rem 2rem 0;
     }
     .container2 .sec-2 img {
         width: 270px;
@@ -1531,8 +1533,13 @@ footer .col4 .icons i:hover{
         grid-template-columns: auto;
         gap: 15px;
     }
+    footer .col4 .icons i {
+        width: 40px;
+        height: 40px;
+    }
     footer .col4 .icons {
         grid-template-columns: repeat(6, 1fr);
+        gap: 0;
     }
     footer .col1 .content {
         margin-top: 10px;
