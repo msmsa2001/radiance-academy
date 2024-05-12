@@ -814,8 +814,13 @@ footer .col4 .icons i:hover{
         grid-template-columns: auto;
         gap: 15px;
     }
+    footer .col4 .icons i {
+        width: 40px;
+        height: 40px;
+    }
     footer .col4 .icons {
         grid-template-columns: repeat(6, 1fr);
+        gap: 0;
     }
     footer .col1 .content {
         margin-top: 10px;
@@ -830,4 +835,5 @@ footer .col4 .icons i:hover{
         gap: 1.4rem;
     }
 }
+
 /* footer end */

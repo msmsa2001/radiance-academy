@@ -389,7 +389,7 @@ font-size: 21px;
     .img-container {
         margin: 0px 10rem;
     }
-    .container3,.container4 {
+    .container3,.container4,#container3 {
         padding: 0 5rem;
     }
     .img-container {
@@ -440,7 +440,7 @@ font-size: 21px;
         .GalleryConatiner1{
             height: 22rem;
         }
-        .container3, .container4 {
+        .container3, .container4,#container3 {
             padding: 0 3rem;
         }
 }
@@ -448,7 +448,7 @@ font-size: 21px;
     .GalleryConatiner1 .title .para2 {
         margin-left: -11rem;
     }
-    .container3, .container4 {
+    .container3, .container4,#container3 {
         padding: 0 1.6rem;
     }
     .para {
@@ -629,8 +629,13 @@ footer .col4 .icons i:hover{
       grid-template-columns: auto;
       gap: 15px;
   }
+  footer .col4 .icons i {
+      width: 40px;
+      height: 40px;
+  }
   footer .col4 .icons {
       grid-template-columns: repeat(6, 1fr);
+      gap: 0;
   }
   footer .col1 .content {
       margin-top: 10px;

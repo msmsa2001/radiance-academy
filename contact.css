@@ -281,8 +281,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-repeat: no-repeat;
-/* background-position: cover; */
-background-size: cover;
+background-position: center;
 height: 100%;
 padding: 10rem 0 10rem 6.8rem;
 
@@ -797,8 +796,13 @@ footer .col4 .icons i:hover{
         grid-template-columns: auto;
         gap: 15px;
     }
+    footer .col4 .icons i {
+        width: 40px;
+        height: 40px;
+    }
     footer .col4 .icons {
         grid-template-columns: repeat(6, 1fr);
+        gap: 0;
     }
     footer .col1 .content {
         margin-top: 10px;
