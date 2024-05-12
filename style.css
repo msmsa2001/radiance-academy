@@ -1080,7 +1080,7 @@ figure {
         height: 200px;
     }
     .container2 .sec-2 img {
-        width: 200px;
+        width: 100%;
     }
     .container3 {
         margin-top: 4.8rem;
@@ -1224,7 +1224,7 @@ figure {
         padding: 0px 30px 0px 0px;
     }
     .container2 {
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 24px;
         margin: -3rem 1.8rem 0;
     }
     .container1 .overlay-text {
@@ -1266,7 +1266,7 @@ figure {
 }
 .container2 {
     margin: -6rem 3rem 0;
-    border-radius: 20px;
+    border-radius: 16px;
     grid-template-columns: auto;
 }
 .container1 .overlay-text {
@@ -1290,8 +1290,7 @@ figure {
     margin-top: 17rem;
 }
 .container2 .sec-2 img {
-    width: 290px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 10px;
 }
 .container2 .sec-1 p {
     font-size: 14px;
@@ -1403,13 +1402,13 @@ figure {
             gap: 1rem;
         }
         .container9 .sec1 .title {
-            line-height: 30px;
-            font-size: 22px;
+            line-height: 24px;
+            font-size: 20px;
             margin-bottom: 10px
         }
         .container9 .sec1 .para {
             font-size: 12px;
-            margin-top: 0;
+            margin-top: 8px;
             line-height: 20px;
     }
     .container9 .sec2 .contact {
