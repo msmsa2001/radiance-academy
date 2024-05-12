@@ -480,6 +480,7 @@ padding: 2rem 3rem;
 @media screen and (max-width:1090px) {
     .container3{
         grid-template-columns: auto;
+        padding: 2rem 4rem;
     }
     .container3 .sec1{
         display: flex;
@@ -639,6 +640,20 @@ padding: 2rem 2.4rem 2rem 1.4rem;
     font-family: 'poppins';
     margin-top: 6px;
 }
+@media (min-width: 1400px) and (max-width: 1999px) {
+    .container6 .sec{
+            margin-top: -19rem;
+        } 
+        .container5 .inner-sec .img-section2,.container5 .inner-sec .img-section1 {
+            display: grid;
+            grid-auto-columns: auto;
+            gap: 1rem;
+        }
+        .container5 .inner-sec .img-section2 img,.container5 .inner-sec .img-section1 img{
+            width: 100%;
+        }
+  }
+  
 @media screen and (max-width:1140px) {
     .container6 {
         padding: 2rem 4rem;

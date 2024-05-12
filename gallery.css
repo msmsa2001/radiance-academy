@@ -282,10 +282,9 @@ nav{
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-position: cover;
     background-size: cover;
     height: 100%;
-    padding: 10rem 0 10rem 6.8rem;
+    padding: 9rem 0 9rem 6.8rem;
     
     }
     .Conatiner1 .title .para1{
@@ -298,7 +297,7 @@ nav{
     .Conatiner1 .title .para2{
         color: rgba(225, 225, 225, 1);
         font-size: 18px;
-        margin-left: -24rem;
+        margin-left: -34rem;
     }
     .Conatiner1 .para2 a{
         color: rgba(187, 187, 187);
@@ -312,7 +311,7 @@ nav{
     /* responsive */
     @media screen and (max-width: 1280px) {
         .Conatiner1 .title .para2 {
-                margin-left: -19rem;
+                margin-left: -28rem;
         } 
     }
     
@@ -357,8 +356,13 @@ nav{
     }
     @media screen and (max-width: 695px) {
         .Conatiner1 .title .para2 {
-            margin-left: -4rem;
+            margin-left: 0;
         }
+    }
+    @media screen and (max-width:630px) {
+      .Conatiner1{
+        padding: 12rem 0;
+    }
     }
     @media screen and (max-width: 525px) {
         :root {
@@ -368,11 +372,8 @@ nav{
             margin-top: 12px;
         }
             .Conatiner1 .title .para1 {
-                font-size: 46px;
+                font-size: 44px;
                 letter-spacing: 1px;
-            }
-            .Conatiner1{
-                padding: 12rem 0;
             }
             .Conatiner1 .title .para2 {
                 margin-left: 0;

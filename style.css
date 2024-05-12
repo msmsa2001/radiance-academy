@@ -620,7 +620,7 @@ padding-top: 4rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgba(225, 225, 225);
+    color: #fff;
     border: 1px solid var(--red-color);
     border-radius: 4px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
@@ -655,6 +655,7 @@ border-radius: 50%;
     font-weight: 500;
     margin-top: 2px;
     letter-spacing: .80px;
+    margin-bottom: 0 !important;
 }
 .container7 .ranker-sec .card .card-detail .course{
     font-family: 'roboto';
@@ -810,15 +811,27 @@ figure:hover {
     figure {
         margin: 0 0 0rem;
         width: 445px;
-    }}
+    }
+    .container3{
+        gap: 0;
+    }
+}
     @media screen and (min-width: 1300px) and (max-width: 1400px) {
         figure {
             width: 385px;
-        }}
+        }
+        .container3{
+            gap: 0;
+        }
+    }
         @media screen and (min-width: 1400px) and (max-width: 1500px) {
             figure {
                 width: 410px;
-            }}
+            }
+            .container3{
+                gap: 0;
+            }
+        }
  @media screen and (max-width:1250px) {
     figure {
         width: 330px;
@@ -1113,7 +1126,10 @@ figure {
     height: 200px;
 }
 .container7 {
-    padding: 3rem 3rem;
+    padding: 2.6rem 3rem;
+}
+.container7 .title{
+    line-height: 30px;
 }
 :root {
     --title-size: 28px;
@@ -1140,7 +1156,7 @@ figure {
         height: 360px;
     }
     .container7 {
-        padding: 3rem 1rem;
+        padding: 2.4rem 1rem;
     }
     .container4 .sec-2 .card-sec, .container4 .sec-1 .card-sec {
         margin: 2rem 10px 0;
@@ -1170,6 +1186,9 @@ figure {
         margin: 2rem 4rem 2rem;
         gap: 1.2rem;
     }
+    .container4 .sec-1 .card-sec .card1:hover,.container4 .sec-2 .card-sec .card1:hover{
+        transform: none;
+    }
     .container4 .sec-2 .card1 .card-info {
         height: 16rem;
     }
@@ -1187,6 +1206,7 @@ figure {
     .container6 .sec-1 {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 1.1rem;
+        margin-top: 1.4rem;
     }
     .container6 .sec-1 .sec .heading {
         font-size: 14px;
@@ -1245,9 +1265,25 @@ figure {
     font-size: 12px;
 }
 .container2 {
-    padding: 1rem 1rem 0rem 1rem;
-    margin: 1rem 1.8rem 0;
+    margin: -2rem 5rem 0;
     border-radius: 20px;
+    grid-template-columns: auto;
+}
+.container1 .overlay-text {
+    text-align: left;
+    left: 38%;
+    line-height: 40px;
+    font-size: 38px;
+}
+.container1 .overlay-text br{
+    display: none;
+}
+.container1 img{
+    height: 36rem;
+}
+.container2 .sec-2{
+    display: flex;
+    justify-content: center;
 }
 .container3 {
     margin-top: 14rem;

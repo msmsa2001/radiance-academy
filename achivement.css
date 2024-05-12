@@ -311,7 +311,7 @@ nav{
   /* responsive */
   @media screen and (max-width: 1280px) {
       .Conatiner1 .title .para2 {
-              margin-left: -19rem;
+              margin-left: -16rem;
       } 
   }
   
@@ -325,7 +325,7 @@ nav{
   }
   @media screen and (max-width: 1090px) {
       .Conatiner1 .title .para2 {
-          margin-left: -10rem;
+          margin-left: -8rem;
       }
   }
   @media screen and (max-width: 840px) {

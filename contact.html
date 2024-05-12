@@ -32,7 +32,7 @@
                 <li><a href="repeater.html">REPEATERS</a></li>
               </ul>
             </li>
-            <li><a href="achivement.html">ACHIVEMENTS</a></li>
+            <li><a href="achivement.html">ACHIEVEMENTS</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
           </ul>
@@ -59,14 +59,14 @@
         </p>
 
         <p class="title">
-            Visit Us
+            VISIT US
         </p>
         <p class="para">
             Tilak Nagar, 90 Feet road, Sakinaka Mumbai-400072
         </p>
 
         <p class="title">
-            Email US
+            EMAIL US
         </p>
         <p class="para">
             radiance.myacademy@gmail.com
@@ -123,6 +123,7 @@
     </div>
 </div>
 
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1750408818384!2d72.88585137381716!3d19.099975451222175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9930f442225%3A0x7f9aeec76a1e483f!2sRadiance%20Academy!5e0!3m2!1sen!2sin!4v1713588585023!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <footer>
@@ -166,5 +167,26 @@
         </div>
     </div>
 </footer>
+<script>
+    // Get all input fields
+    const inputs = document.querySelectorAll('.input');
+
+    // Add event listener to each input field
+    inputs.forEach(input => {
+        // When input field receives focus (typing begins)
+        input.addEventListener('focus', function() {
+            // Change bottom border color
+            this.style.borderBottomColor = 'black';
+        });
+
+        // When input field loses focus (typing ends)
+        input.addEventListener('blur', function() {
+            // Change bottom border color back to default
+            this.style.borderBottomColor = 'black';
+        });
+    });
+</script>
+
+
 </body>
 </html>

@@ -573,8 +573,18 @@ padding: 7px 3px;
 width: 100%;
 background-color: transparent;
 }
-.container3 .sec2 form .row1 .input:focus{
-    border: none;
+.input {
+    background-color: white; /* Default background color */
+    padding: 10px;
+    margin: 5px;
+    border: none; /* No default border */
+    border-bottom: 1px solid white; /* Bottom border */
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+.input:focus {
+    border-bottom: 1px solid orange; /* Bottom border color when input is focused */
+    outline: none; /* Remove default outline */
 }
 ::placeholder{
     font-size: 18px;
