@@ -858,7 +858,16 @@ footer .col4 .icons i:hover{
     transform: scale(1.5);
 
 }
-
+.footer-pvt{
+    background-color: var(--red-color);
+    padding: 1rem 0 1rem;
+    /* border-top: 0.1px solid #f1ebeb; */
+  }
+  .footer-pvt p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
 @media screen and (max-width:1200px) {
     footer {
         padding: 4rem 3.4rem 2rem 3.1rem;
@@ -911,6 +920,9 @@ footer .col4 .icons i:hover{
     footer .col2 ul, footer .col3 ul {
         margin-top: 10px;
     }
+    .footer-pvt p{
+        font-size: 10px;
+      }
 }
 @media screen and (max-width:440px) {
     footer {
