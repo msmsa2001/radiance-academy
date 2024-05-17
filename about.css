@@ -618,7 +618,9 @@ padding: 2rem 2.4rem 2rem 1.4rem;
 .container6 .sec .expert-teacher img{
     width: 60%;
 }
-
+.container6 .sec .expert-teacher #image2{
+    width: 65%;
+}
 .container6 .sec .expert-teacher .title{
     font-weight: 600;
     font-size: 22px;
