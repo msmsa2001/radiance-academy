@@ -448,7 +448,7 @@ height: 90px;
     line-height: 25px;
     color: var(--black-color2);
     background-color: var(--light-pink);
-    padding: 2px 40px;
+    padding: 3px 30px;
     border-radius: 20px;
     margin: 15px 0;
 }
@@ -477,6 +477,7 @@ height: 90px;
     font-weight: 300;
     font-size: 12px;
     text-transform: uppercase;
+    margin-top: 8px;
 }
 .container2 .ranker-sec #cardId{
     background-color: rgba(255, 255, 255, 1);
