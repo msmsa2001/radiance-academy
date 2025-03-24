@@ -1447,6 +1447,10 @@ footer .col4 .icons i:hover{
     font-size: 14px;
     text-align: center;
   }
+  .footer-pvt p a{
+    text-decoration: none;
+    color: #fff;
+  }
 @media screen and (max-width:1200px) {
     footer {
         padding: 4rem 3.4rem 2rem 3.1rem;
